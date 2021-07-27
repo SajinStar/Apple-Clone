@@ -1,0 +1,73 @@
+body {
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.Nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(5, 5, 5, 0.774);
+  height: 6.8vh;
+}
+
+.Nav ul {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44px;
+  padding-left: 0 !important;
+}
+
+.Nav ul li {
+  list-style: none;
+  padding: 0px 37px;
+}
+
+.Nav ul li:last-child {
+  width: 17px;
+}
+
+.Nav ul li:nth-child(9) a img {
+  width: 25px;
+}
+
+.Nav ul li a {
+  text-decoration: none;
+  color: #f5f5f7;
+  opacity: .8;
+  font-size: 14px;
+  font-weight: 200 !important;
+  letter-spacing: -.01em;
+}
+
+.navNextLine {
+  background-color: #f5f5f7;
+  padding: 12px 0px;
+}
+
+.navNextLine h6 {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  font-weight: initial;
+}
+
+.navNextLine h6 a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: initial;
+  color: #06c;
+  letter-spacing: inherit;
+}
+/*# sourceMappingURL=style.css.map */
